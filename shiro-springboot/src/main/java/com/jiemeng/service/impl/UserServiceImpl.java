@@ -1,5 +1,6 @@
 package com.jiemeng.service.impl;
 
+import com.jiemeng.common.DataScope;
 import com.jiemeng.mapper.UserMapper;
 import com.jiemeng.pojo.User;
 import com.jiemeng.service.UserService;
@@ -13,6 +14,8 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper mapper;
+
+    @DataScope(deptAlias = "d", userAlias = "u")
     public User queryUserByName(String name){
         ArrayList<User> list = new ArrayList<>();
         list.add(new User(1,"root","123456","user:add"));
