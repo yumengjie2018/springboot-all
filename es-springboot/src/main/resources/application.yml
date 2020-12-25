@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: jd
+   #数据库配置
+#  datasource:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://192.168.3.15:3306/mysql?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+#      username: root
+#      password: java
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//10.10.2.31:1521/orcl
+    username: osmp_ah
+    password: osmp_ah
+swaggerEnable: true
+
