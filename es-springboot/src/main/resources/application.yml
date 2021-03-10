@@ -8,7 +8,7 @@ spring:
     name: jd
    #数据库配置
 #  datasource:
-#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      driver-classadapter-name: com.mysql.cj.jdbc.Driver
 #      url: jdbc:mysql://192.168.3.15:3306/mysql?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
 #      username: root
 #      password: java

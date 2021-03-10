@@ -7,7 +7,7 @@
 //
 //
 //@Service
-//public class Solution {
+//public classadapter Solution {
 //    //两数之和测试
 //    public static int[] towSum(int[] nums,int target){
 //        addTwoNumbers();
@@ -85,7 +85,7 @@
 //        return Integer.valueOf(tes);
 //    }
 //}
-//class ListNode{
+//classadapter ListNode{
 //    int val;
 //    ListNode next;
 //
